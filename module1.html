@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic Card - Responsive on all breakpoints</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-gray-600 flex justify-center items-center min-h-screen">
+    <div
+      class="bg-card text-white w-[80%] max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl md:px-6 lg:px-6 px-8 mx-auto py-4 rounded-lg xl:px-4 xl:py-6"
+    >
+      <div class="flex flex-col lg:flex-row lg:items-center gap-8">
+        <img
+          class="w-auto w-full lg:w-55"
+          src="/Rectangle 2.png"
+          alt="Mountains"
+        />
+        <div class="space-y-4 sm:text-left">
+          <h1 class="text-xl xl:pt-3">
+            An Above Average <br />
+            Experience
+          </h1>
+          <p class="text-para text-sm">
+            Travel to the premiere mountain tops of New Zealand with our guided
+            tours. Take in the majestic scenery and witness beauty.
+          </p>
+          <img
+            class="xl:w-4"
+            src="/fa-solid_external-link-square-alt.png"
+            alt="Link"
+          />
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
+
+<!-- w-full : takes entire space of container -->
+<!-- max-w-lg : image can shrink if needed but won't grow beyond md size
+ Useful when you dont an image to get too big but still need it to shrink on smaller screens -->
+<!-- max-w makes the card adjust width properly on all devices -->

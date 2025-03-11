@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@theme
+{
+  --color-card:#383A45;
+  --color-para:#8D91A6;
+}
+body
+{
+  font-family:'Poppins', sans-serif;
+}
